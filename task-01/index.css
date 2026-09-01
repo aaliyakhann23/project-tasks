@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width: 100%;
+    background-color: black;
+}
+header{
+    height:80px;
+    background-color:black;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    margin-left:20px;
+    margin-right: 5px;
+}
+.logo h2{
+    color:white;
+    font-weight: 500;
+}
+.navigation{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+.navigation p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+
+}
+.nav-btn{
+    margin-right: 20px;
+    padding:15px;
+    background-color: rgb(29, 29, 29);
+    color:white;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 15px;
+    border:none;
+}
+main{
+    height:80%;
+    background-color:black;
+}
+section.main-text{
+    background-color: black;
+    height:150px;
+    
+}
+.main-text{
+ 
+    color:white;
+    font-size: 80px;
+    font-weight: 400;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display:flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+.filters{
+    height:100px;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    margin-top: 10px;
+}
+.filters h3{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    border-radius: 30px;
+    background-color: rgb(30, 30, 30);
+    padding:10px 15px;
+    font-weight: 400;
+}
+#filter-ht{
+    background-color: orangered;
+}
+.image-card{
+    height: 390px;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+
+}
+
+.cards{
+    height: 90%;
+    width:20%;
+    background-color:rgb(26, 26, 26);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+}
+.cards img{
+    width:95%;
+    height:60%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.image-content button{
+    background-color: rgb(176, 78, 2);
+    margin:10px 5px;
+    color:white;
+    border-radius: 25px;
+    padding:10px;
+    border:none;
+}
+.image-content h4{
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+.image-content time{
+    background-color: rgb(26, 26, 26);
+    color:rgb(129, 129, 129);
+    display:block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 5px;
+
+}
