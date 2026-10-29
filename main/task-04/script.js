@@ -103,7 +103,7 @@
 // let r = Number(prompt('enter the rate of interest%'))
 // let y = Number(prompt('enter the duration(years) of the amount you will pay'))
 // totalamount = p*(1 + r/100 )** y
-// let ci = totalamount - p 
+// let ci = totalamount - p
 // console.log('the simple interest of the loan is', ci)
 // console.log('the total amount after including interest is',totalamount)
 
@@ -118,31 +118,195 @@
 // console.log('Distance in meters',m)
 
 
-let units = Number(prompt('enter the units of electricity bill'))
-let bill;
-if (units <= 100) {
-    bill = units * 2
-    console.log('your monthly electricity bill is',bill);
-} else if (units <= 200) {
-    bill = units * 3
-    console.log('your monthly electricity bill is',bill);
+// let units = Number(prompt('enter the units of electricity bill'))
+// let bill;
+// if (units <= 100) {
+//     bill = units * 2
+//     console.log('your monthly electricity bill is',bill);
+// } else if (units <= 200) {
+//     bill = units * 3
+//     console.log('your monthly electricity bill is',bill);
   
-} else {
-    bill = units * 5
+// } else {
+//     bill = units * 5
     
-}
-console.log('your bill is ',bill)
+// }
+// console.log('your bill is ',bill)
 
 
+//array
+
+// let arr= ['turkey','dubai','london','switzerland','bhopal']
+// console.log(arr[0])
+// console.log(arr[1])
+// console.log(arr[2])
+// console.log(arr[3])
+// console.log(arr[4])
+
+// let arr = ['aaliya', 20.4, 12, true, [12, 34, 54, 6]]
+// console.log(arr[arr.length - 1])
+// console.log(arr[4][0], arr[4][1])
+
+// let a = [23, 32, 43, 54, 64, 6]
+// let temp = a[1]
+// a[1] = a[a.length - 2];
+// a[a.length - 2] = temp;
+// console.log(a)
+ 
+
+// let ab = [
+//     [10, 20, 30],
+//     [10, 50, 30],
+//     [10, 20, 30]
+// ]
+// console.log(ab);
+// console.log(ab[0][0]+ab[0][1]+ab[0][2]);
+// console.log(ab[1][0]+ab[1][1]+ab[1][2]);
+// console.log(ab[2][0]);
+
+// let a = [23, 43, 23, 23, 42, 4]
+// function check(arr) {
+//     if (arr.length % 2 == 0) {
+//         console.log('array is even ')
+//     } else {
+//         console.log('array length is odd')
+//     }
+
+// }
+// check([23, 43, 23, 23,34])
 
 
+// let arr = [32, 43, 44, 54]
+// let arr1 = []
+// for (let i = 0; i < arr.length; i++){
+//     arr1.push(arr[i]);
+// }
+// arr1.push(34)
+// console.log(arr1)
 
 
+// let arr = [12, 14, 16, 18, 20]
+// a = arr.pop()
+// console.log(a)
 
 
+// let arr = [12, 14, 16, 18, 20]
+// while (arr.length > 0) {
+//     (arr.pop())
+// }
+// console.log('Array is Empty')
 
 
+// let arr = ['aaliya','mariyam','priya','zikra']
+// arr.unshift('aalu', 'kaju', 'bhalu', 'kalu')
+// console.log(arr)
+
+// let arr = [12, 14, 16, 18, 20]
+// while (arr.length > 2) {
+//     arr.shift()
+// }
+// console.log(arr)
 
 
+// let arr = [12, 14, 16, 18, 20]
+// arr.splice(2,3,21,11,23,34,25)
+
+// console.log(arr)
+
+// let arr = [12, 14, 16, 18, 20]
+// arr.splice(3, 2)
+// console.log(arr)
+
+// let arr = [12, 2, 3, 3, 14, 43, 16, 0, 23, 12, 18, 20]
+// arr.sort((a, b) => a - b)
+// console.log(arr);
+
+// let arr = [12, 2, 3, 3, 14, 43, 16, 0, 23, 12, 18, 20]
+// let arr1 = arr.slice(1, arr.length-1)
+// console.log(arr1)
 
 
+// let arr = [10, 20, 30, 40, 50, 60, 70];
+                          
+// console.log(arr.slice(-5, -2));
+
+// let arr = [10, 20, 30, 40, 50, 60, 70];
+// let arr2 = arr.slice(arr.length-3)
+// console.log(arr2)
+
+// let arr = [1, 20, 37, 47, 51, 60, 70];
+// let evencount = []
+// let oddcount = []
+// for (let i = 0; i < arr.length; i++){
+//     if (arr[i] % 2 == 0) {
+//         evencount.push(arr[i])
+        
+//     }
+//     else {
+//        oddcount.push(arr[i])
+//     }
+// }
+// console.log(evencount);
+// console.log(oddcount);
+
+// let arr = [1, 20, 37, 47, 51, 60, 70];
+// let smallest = arr[0]
+// for (let i = 0; i < arr.length; i++){
+//     if (arr[i] < smallest)
+//         smallest = arr[i]
+// }
+// console.log(smallest)
+
+
+// let arr = [20, 30, 40, -1, -23, 0, -12]
+// positive = 0
+// negative = 0
+// zero = 0
+// for (let i = 0; i < arr.length; i++){
+//     if (arr[i] > 0) {
+//         positive++
+//     } else if (arr[i] < 0) {
+//         negative++
+//     } else {
+//         zero++
+//     }
+// }
+// console.log(positive)
+// console.log(negative)
+// console.log(zero)
+
+// let arr = [20, 30, 40, -1, -23, 0, -12, 'aaliya', 'bhalu'];
+// let find = 20
+// let found = false;
+
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] === find) {
+//         found == true;
+//         console.log(i)
+       
+//     }
+    
+// }
+
+// if (found) {
+//     console.log('Element exists');
+// } else {
+//     console.log('Element does not exist');
+// }
+
+// let arr = [5, 8, 5, 2, 5, 9, 8, 5];
+// let find = 5;
+// let count = 0;
+// for (let i = 0; i < arr.length; i++){
+//     if (arr[i] === find) {
+//         count++
+//     }
+// }
+// console.log(count)
+
+// let arr = [10, 20, 30, 10, 40, 20, 50];
+// count = 0
+// for (let i = 0; i < arr.length; i++) {
+//     for (let j = 0; j < arr.length; j++)
+// }
+  
