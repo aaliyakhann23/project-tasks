@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+
+}
+.hero{
+    position:relative;
+    width:100%;
+    height: 900px;
+    overflow:hidden;
+}
+.main-section img{
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    object-fit: cover;
+}
+.navbar{
+    height:60px;
+    position:absolute;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    z-index:2;
+    padding:0 50px;
+}
+.logo img{
+    margin-top: 10px;
+    font-size: 40px;
+    height:80px;
+    width:100%;
+    
+
+}
+.nav-links{
+    display:flex;
+    justify-content: center;
+    gap:25px;
+    color:white;
+
+}
+.nav-links p{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.side-menu{
+    color:white;
+    font-size: 20px;
+}
+.hero-content{
+    position:absolute;
+    top:20%;
+    left:10%;
+}
+.hero-content img{
+   width:100%;
+}
+.hero-content p{
+    color:white;
+    line-height: 20px;
+    margin-top: 15px;
+}
+.button{
+    position:absolute;
+    top:60%;
+    left:10%;
+}
+#orange-btn{
+    padding:10px 20px;
+    border-radius: 10px;
+    background:linear-gradient(to right, rgb(233, 50, 114),rgb(249, 118, 42));
+    color:white;
+    border:none;
+}
+.ri-play-fill{
+    height:40px;
+    width:40px;
+    border-radius: 30px;
+    background-color: white;
+    color:black;
+    margin-right: 10px;
+    justify-content: center;
+}
+#pink-btn{
+    padding:10px 20px;
+    background-color: transparent;
+    color:white;
+    border-radius: 10px;
+    margin-left:10px;
+    border: 1px solid rgb(251, 71, 101);
+}
+.ri-play-mini-line{
+    margin-right: 10px;
+}
+.social-icons{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    top:40%;
+    left:90%;
+}
+.social-icons i{
+    font-size: 20px;
+    color:rgb(255, 61, 94);
+}
+.movie-cards{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+    position: absolute;
+    bottom: 30px;
+    left: 7%;
+    width: 86%;
+    height: 250px;
+    background:linear-gradient(to right,rgb(245, 88, 114),rgb(38, 14, 46)) ;
+    border-radius: 10px;
+}
+.cards{
+    position: relative;
+    flex: 1;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.cards img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+#play-btn{
+    position:absolute;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color:white;
+    border-radius: 50%;
+    width:35px;
+    height:35px;
+    right:25px;
+    bottom:15px;
+}
